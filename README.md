@@ -1,24 +1,13 @@
 # ChaturbateRooomFilter
 
 Chaturbate is an Adult website for those 18 years and older to connect, share seuxually explicit
-webcams, and offer tips to eachother in the form of tokens.
+webcams, and offer tips to eachother in the form of tokens. I created this JavaScript tool for 
+myself to filter Chaturbate rooms to suite **my prefernce** in finding people to chat / flirt with. 
 
-I created this JavaScript tool for myself to filter Chaturbate rooms to suite 
-**my prefernce** of finding people to chat / flirt with. It works by hiding rooms that 
-are not my prefered gender, are outside of the age range I like or who ONLY want tokens.
+It works by hiding filtering out rooms that are not outside of my prefered gender, age range or 
+are only geared toward getting more tokens. It also adds a __Hide Room__  button on room thumbnails.
 
-The tool also adds a "Hide Room" when you hover over the thumbnail of a room.
-
-> :warning: To use or modify this tool you will need to be comfortable working with Javascript.
-> The tool has almost no user interface, so to changes the filters you must alter the code itself.
-
-
-## Current Room Filter Rules 
-
-Below is a summary of the filter rules that are applied. There is no user interface 
-so if you want to changes these filters you will need to do so yourself in the javascript code.
-
-### Hide any rooms that:
+## Room Filter Rules - Hides rooms that:
 
 - Have a subject with the words "private", "pvt" or "goal" 
 - Have a subject asking for more than 200 tokcnes
@@ -27,10 +16,18 @@ so if you want to changes these filters you will need to do so yourself in the j
 - Have more than 300 viewers (too many people for good conversation)
 - Have fewer than 5 viewers 
 - Are over my max prefered age of 50 (if listed)
-- Is a sinlge female, or Trans/sissy gender (sorry just not for me)
+- Is a sinlge female, or Trans/sissy gender
 
+There is no UI for changing the rules, but feel free to update the Javascruot code to fit your needs.
 
 ##  Instructions using Chrome and **User JavaScript and CSS** extebsuib
+
+To run this tool you'll either nneed to open the browsers developer tools, and paste the 
+code into the console on each page load.
+
+- OR --
+
+Use an extension to inject the JS code for yo such as __User Javascipt and CSSS__ for Chrome
 
 1.  Open google chrome (desktop only)
 2.  Install [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en)
